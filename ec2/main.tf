@@ -26,7 +26,7 @@ resource "null_resource" "provisioner" {
     }
 
     inline = [
-      "ansible-pull -i localhost, -U https://https://github.com/vlnaresh28/roboshop-ansible roboshop.yml -e role_name=${var.component}"
+      "ansible-pull -i localhost, -U https://github.com/vlnaresh28/roboshop-ansible roboshop.yml -e role_name=${var.component}"
     ]
 
   }
@@ -58,7 +58,7 @@ resource "aws_security_group" "sg" {
 }
 
 resource "aws_route53_record" "record" {
-  zone_id = "Z103214126L48SQW30RSR"
+  zone_id = "Z020734418XXZIMNTHHTZ"
   name    = "${var.component}-dev.learndevopseasy.online"
   type    = "A"
   ttl     = 30
