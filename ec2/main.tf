@@ -75,5 +75,5 @@ variable "component" {}
 variable "instance_type" {}
 variable  "env" {
 
-defualt = "dev"
+default = "dev"
 }
