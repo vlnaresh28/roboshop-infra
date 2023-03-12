@@ -85,7 +85,7 @@ resource "aws_iam_policy" "ssm-policy" {
             "Resource": "*"
         }
     ]
-}})
+})
 }
 
 resource "aws_iam_role" "role" {
