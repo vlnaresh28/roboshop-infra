@@ -1,5 +1,5 @@
 module "vpc" {
-  source              = "git::https://github.com/raghudevopsb71/tf-module-vpc.git"
+  source              = "git::https://github.com/vlnaresh28/tf-module-vpc.git"
   env                 = var.env
   tags                = var.tags
   default_route_table = var.default_route_table
@@ -12,7 +12,7 @@ module "vpc" {
 }
 
 //module "docdb" {
-//  source              = "git::https://github.com/raghudevopsb71/tf-module-docdb.git"
+//  source              = "git::https://github.com/vlnaresh28/tf-module-docdb.git"
 //  env                 = var.env
 //  tags                = var.tags
 //
