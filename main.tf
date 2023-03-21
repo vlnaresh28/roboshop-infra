@@ -26,4 +26,4 @@ module "vpc" {
 
 //output "vpc" {
  // value = local.db_subnet_ids
-}
+//}
